@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/csh781500578/DAnimated"
   s.source       = { :git => "https://github.com/csh781500578/DAnimated.git", :tag => "#{s.version}"} 
-  s.source_files = "tree/master/DAnimated/*.{h,m}"
+  s.source_files = "DAnimated/*.{h,m}"
   s.requires_arc = true
   s.platform     = :ios, "8.0" 
   # s.frameworks   = "UIKit", "Foundation"
