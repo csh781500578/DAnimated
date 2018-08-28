@@ -13,6 +13,7 @@
 		C53BD499213426C500FB8965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53BD498213426C500FB8965 /* Assets.xcassets */; };
 		C53BD49C213426C500FB8965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53BD49A213426C500FB8965 /* LaunchScreen.storyboard */; };
 		C53BD49F213426C500FB8965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C53BD49E213426C500FB8965 /* main.m */; };
+		C53BD4A821351F4A00FB8965 /* DTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C53BD4A721351F4A00FB8965 /* DTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C53BD49B213426C500FB8965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C53BD49D213426C500FB8965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C53BD49E213426C500FB8965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C53BD4A621351F4A00FB8965 /* DTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTransition.h; sourceTree = "<group>"; };
+		C53BD4A721351F4A00FB8965 /* DTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		C53BD48E213426C400FB8965 /* DAnimated */ = {
 			isa = PBXGroup;
 			children = (
+				C53BD4A521351F3700FB8965 /* DAnimated */,
 				C53BD48F213426C400FB8965 /* AppDelegate.h */,
 				C53BD490213426C400FB8965 /* AppDelegate.m */,
 				C53BD492213426C400FB8965 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				C53BD49A213426C500FB8965 /* LaunchScreen.storyboard */,
 				C53BD49D213426C500FB8965 /* Info.plist */,
 				C53BD49E213426C500FB8965 /* main.m */,
+			);
+			path = DAnimated;
+			sourceTree = "<group>";
+		};
+		C53BD4A521351F3700FB8965 /* DAnimated */ = {
+			isa = PBXGroup;
+			children = (
+				C53BD4A621351F4A00FB8965 /* DTransition.h */,
+				C53BD4A721351F4A00FB8965 /* DTransition.m */,
 			);
 			path = DAnimated;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 				C53BD494213426C400FB8965 /* ViewController.m in Sources */,
 				C53BD49F213426C500FB8965 /* main.m in Sources */,
 				C53BD491213426C400FB8965 /* AppDelegate.m in Sources */,
+				C53BD4A821351F4A00FB8965 /* DTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
